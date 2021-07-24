@@ -21,7 +21,7 @@ freq="7039900"
 # FSK shift in Hz
 shift="4"
 
-# Amplitude in Vpp
+# Amplitude in Vpp, see: http://wera.cen.uni-hamburg.de/DBM.shtml
 ampl=0.632 # 0 dBm
 
 # Gate waveform name

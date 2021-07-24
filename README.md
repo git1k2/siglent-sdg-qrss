@@ -2,8 +2,12 @@
 Proof of concept for transmitting QRSS FSKCW with a Siglent Function / 
 Arbitrary Waveform Generator. Tested with Siglent SDG-1032X.
 
-My HF 0 dBm (1 mW) signal into an endfed sloper antenna was received from a few 
-hundred kilometers to 3000 km away! Note: You'll need an amateur radio license!
+My HF 0 dBm (1 mW) signal into an endfed sloper antenna was heard a few 
+hundred to 3000 km away!
+
+**Note:** You'll probably need an amateur radio license 
+to transmit on HF! Also check your output for harmonics and use an LPF if 
+necessary.
 
 - [QRSS info](https://swharden.com/blog/2020-10-03-new-age-of-qrss/)
 - [QRSS Plus, grabbers](https://swharden.com/qrss/plus/)

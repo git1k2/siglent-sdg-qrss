@@ -41,7 +41,9 @@ necessary.
 - Run `sdg.sh`
 
 Channel 1 screenshot:
+
 ![Alt text](/screenshots/channel1.png?raw=true "channel 1")
 
 Channel 2 screenshot:
+
 ![Alt text](/screenshots/channel2.png?raw=true "channel 2")

@@ -23,8 +23,9 @@ necessary.
 
 ### Connect the instrument
 - Connect an HF antenna to channel 1.
-- Connect channel 2 to aux input on the back of the instrument.
-- Connect a 10 MHz reference.
+- Connect channel 2 to the aux input on the back of the instrument.
+- Connect a 10 MHz reference. This results in a stable signal and the 
+  10 minute frame grabs can then be stacked for max signal or noise reduction.
 
 ### Run the sdg.sh script
 - Install lxi-tools (Ubuntu): `snap install lxi-tools`

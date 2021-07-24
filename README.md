@@ -13,7 +13,7 @@ necessary.
 - [QRSS Plus, grabbers](https://swharden.com/qrss/plus/)
 
 ## Usage
-###Generate the arbitrary gate waveform 
+### Generate the arbitrary gate waveform 
 - Edit, and run `morse_csv.py`. This will output `output.csv`. 
 - Rename this file to something useful, for example `callsign.csv`.
 - For example callsign.csv becomes waveform 'callsign' in the SDG.
@@ -21,12 +21,12 @@ necessary.
 
 ![Alt text](/screenshots/easywavex-call.png?raw=true "trigger waveform")
 
-###Connect the instrument
+### Connect the instrument
 - Connect an HF antenna to channel 1.
 - Connect channel 2 to aux input on the back of the instrument.
 - Connect a 10 MHz reference.
 
-###Run the sdg.sh script
+### Run the sdg.sh script
 - Install lxi-tools (Ubuntu): `snap install lxi-tools`
 - Find your device: `lxi discover`
 - Get waveform name: `lxi scpi -a <IP address> "STL? USER"`

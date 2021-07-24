@@ -1,6 +1,7 @@
 # siglent-qrss
 Proof of concept for transmitting QRSS FSKCW with a Siglent Function / 
-Arbitrary Waveform Generator. Tested with Siglent SDG-1032X.
+Arbitrary Waveform Generator. Tested with Siglent SDG-1032X. Channel 2 
+triggers the FSK modulated channel 1.
 
 My HF 0 dBm (1 mW) signal into an endfed sloper antenna was heard a few 
 hundred to 3000 km away!
@@ -30,11 +31,17 @@ necessary.
 ### Run the sdg.sh script
 - Install lxi-tools (Ubuntu): `snap install lxi-tools`
 - Find your device: `lxi discover`
-- Get waveform name: `lxi scpi -a <IP address> "STL? USER"`
-- Edit the variables in `sdg.sh`
+- Get the waveform name: `lxi scpi -a <IP address> "STL? USER"`
+- Edit at least the variables below in `sdg.sh`
   - `address`: SDG IP address
   - `freq`: frequency in Herz.
   - `ampl`: amplitude in Vpp.
   - `wave`: waveform name.
 
 - Run `sdg.sh`
+
+Channel 1 screenshot:
+![Alt text](/screenshots/channel1.png?raw=true "channel 1")
+
+Channel 2 screenshot:
+![Alt text](/screenshots/channel2.png?raw=true "channel 2")

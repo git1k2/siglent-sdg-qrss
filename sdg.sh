@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Siglent SDG-1032X instructions.
-# - Connect channel 2 to to aux input.
-# - Upload gate waveform to SDG with EasyWaveX.
-#   - For example call.csv becomes 'call' in the SDG.
-#   - Edit the 'wave' variable below with this name.
-# - Install lxi-tools (Ubuntu): snap install lxi-tools
-# - Find your device, update 'address' variable below: lxi discover
-# - Find wave name:   lxi scpi -a <IP address> "STL? USER"
-
 # SDG IP address
 address="192.0.2.1"
 

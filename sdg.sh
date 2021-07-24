@@ -48,14 +48,14 @@ ctrl_c() {
 # Print identification
 send "*IDN?"
 
-# Configure output channel 1 and 2
+# Turn off output channel 1 and 2
 send "C1:OUTP OFF"
 send "C2:OUTP OFF"
     
 # Enable external 10 MHz clock input
 send "ROSC EXT"
 
-# Configure output channel 1 and 2
+# Configure output load channel 1 and 2
 send "C1:OUTP LOAD,50"
 send "C2:OUTP LOAD,50"
 
@@ -101,6 +101,7 @@ do
 	configure_fsk
 	echo "======================================"
         echo "Next TX freq: ${freq} Hz, ampl: ${ampl} Vpp"
+	# Start at every 10th minute
 	wait_for_minute 0 00
 
 	echo "$(date) - TX ON"

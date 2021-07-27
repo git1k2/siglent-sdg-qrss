@@ -4,7 +4,7 @@ Arbitrary Waveform Generator. Tested with Siglent SDG-1032X. Channel 2
 triggers the FSK modulated channel 1.
 
 My HF 0 dBm (1 mW) signal into an endfed sloper antenna was heard a few 
-hundred to 3000 km away!
+hundred to 1500 km away!
 
 **Note:** You'll probably need an amateur radio license 
 to transmit on HF! Also check your output for harmonics and use an LPF if 
